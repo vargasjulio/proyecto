@@ -1,0 +1,28 @@
+body{
+	background: rgba(248,80,50,1);
+background: -moz-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(246,41,12,1) 0%, rgba(241,111,92,1) 38%, rgba(231,56,39,1) 100%);
+}
+
+body{
+	color: white;
+
+}
+
+.foto{
+	filter:grayscale(1);
+	width:300px;
+	transition: all linear 1s;
+}
+.mifoto:hover{
+	filter:grayscale(0);
+	transform:rotate(50deg) scale(1.3.1.3);
+}
+.foto2{
+	filter:grayscale(1);
+	width:300px;
+}
+.mifoto3{
+	filter:grayscale(1);
+	width:300px;
+}
+
